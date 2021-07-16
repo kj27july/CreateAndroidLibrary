@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
 
         //add Dependency
         Toaster.simpleToast(this, "Hello World")
+        Toaster.Toaster2.simpleToast(this)
     }
 }
