@@ -2,6 +2,7 @@ package com.example.myownandroidlibrary
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.toastdisplay.Abstractions
 import com.example.toastdisplay.Toaster
 
@@ -13,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         //add Dependency
         Toaster.simpleToast(this, "Hello World")
         Toaster.Toaster2.simpleToast(this)
+        Toaster.result()
 
     }
 }
