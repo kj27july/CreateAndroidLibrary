@@ -1,0 +1,3 @@
+rootProject.name = "MyOwnAndroidLibrary"
+include ':app'
+include ':toastDisplay'
