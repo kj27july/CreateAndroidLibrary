@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.Log
 import android.widget.Toast
 
-object Toaster {
+object Toaster :Abstractions(){
     fun simpleToast(context: Context, msg: String) {
         Toast.makeText(context, msg, Toast.LENGTH_LONG).show()
         Log.d("displayToast", "simpleToast:1")
